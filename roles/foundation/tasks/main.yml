@@ -1,0 +1,6 @@
+---
+- name: Touch a file
+  file:
+    path: ~/touchstone
+    state: touch
+    
